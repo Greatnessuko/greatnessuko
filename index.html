@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="shortcut icon" type="x-icon" href="static/img/A3.png">
+    <link rel="stylesheet" href="../static/styles.css">
+    <link rel="javascript" href="../static/js/app.js">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+</head>
+<body class="main-content">
+    <header class="container header active" id="home">
+        <div class="header-content">
+            <div class="left-header">
+                <div class="h-shape"></div>
+                <img src="static/img/smile.jpg" class="image" style="width:70%; margin-left: 20%;"></img>
+            </div>
+            <div class="right-header">
+                <h1 class="name">
+                    Hello there! I am <span id="type"></span>
+                </h1>
+                <div>
+                    
+                </div>
+                <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+                <script>
+                    var typed = new Typed("#type", {
+                        strings: ["Greatness", "Uko"],
+                        typeSpeed: 60,
+                        backSpeed: 40,
+                        loop: true
+                    });
+                </script>
+                <p>
+                    I'm a Frontend Developer, Civil Engineer, Business Enthusiast & HSE Officer. I love to build and profer solutions.
+                </p>
+
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="container about" id="about">
+            <div class="main-title">
+                <h2>About <span>me</span><span class="bg-text">my stats</span></h2>
+            </div>
+            <div class="about-container">
+                <div class="left-about">
+                    <h4>More about me</h4>
+                    <p>
+                        Hello again, I am Greatness. Frontend developer, HSE Officer and Business Enthusiast. 
+                        I have experiences in HTML5, CSS3, &amp JavaScript. <br /> <br /> Orchestrating projects to perfection, from seamless user journeys to strategic business growth.
+                    </p>
+                    
+                </div>
+                <div class="right-about">
+                    <div class="about-item">
+                        <div class="abt-text">
+                            <p class="large-text">5+</p>
+                            <p class="small-text">Projects <br /> Completed</p>
+                        </div>
+                    </div>
+                    <div class="about-item">
+                        <div class="abt-text">
+                            <p class="large-text">2+</p>
+                            <p class="small-text">Years of <br /> experience</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="about-stats">
+                <h4 class="stat-title">My Skills</h4>
+                <div class="progress-bars">
+                    <div class="progress-bar">
+                        <p class="prog-title">HTML5</p>
+                        <div class="progress-con">
+                            <p class="prog-text">90%</p>
+                            <div class="progress">
+                                <span class="html"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="progress-bar">
+                        <p class="prog-title">CSS3</p>
+                        <div class="progress-con">
+                            <p class="prog-text">80%</p>
+                            <div class="progress">
+                                <span class="js"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="progress-bar">
+                        <p class="prog-title">JavaScript</p>
+                        <div class="progress-con">
+                            <p class="prog-text">40%</p>
+                            <div class="progress">
+                                <span class="css"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="progress-bar">
+                        <p class="prog-title">HSE</p>
+                        <div class="progress-con">
+                            <p class="prog-text">80%</p>
+                            <div class="progress">
+                                <span class="js"></span>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="progress-bar">
+                        <p class="prog-title">Graphics with Canva</p>
+                        <div class="progress-con">
+                            <p class="prog-text">70%</p>
+                            <div class="progress">
+                                <span class="Canva"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="socials">
+                <a href="https://github.com/Greatnessuko" target="_blank">       
+                    <i class="fa-brands fa-github"></i>                
+                </a>
+                <a href="https://www.facebook.com/greatnessuko1" target="_blank">       
+                    <i class="fa-brands fa-facebook"></i>                
+                </a>
+                <a href="https://twitter.com/Greatnessuko" target="_blank">       
+                    <i class="fa-brands fa-twitter"></i>                
+                </a>
+                <a href="https://api.whatsapp.com/send?phone=07031874000" target="_blank">       
+                    <i class="fa-brands fa-whatsapp"></i>                
+                </a>
+            </div>
+        </section>
+
+        <section class="container" id="portfolio">
+            <div class="main-title">
+                <h2>My <span>Projects</span><span class="bg-text">Deployed Projects</span></h2>
+            </div>
+            <p class="port-text">
+                Below is a compilation of completed and deployed projects
+            </p>
+            <div class="portfolios">
+                <div class="portfolio-item">
+                    <div class="image">
+                        <img src="static/img/netlify.256x256.png" alt="">
+                    </div>
+                    <div class="hover-items">
+                        <h3>Capstone Project</h3>
+                        <div class="icons">
+                            <a href="https://github.com/Greatnessuko" target="_blank" class="icon">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="https://project28capstone.netlify.app/" class="icon" target="_blank">
+                                <i class="fab fa-chrome"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="image">
+                        <img src="static/img/Photochromic 1.jpg" alt="">
+                    </div>
+                    <div class="hover-items">
+                        <h3>Capstone Project</h3>
+                        <div class="icons">
+                            <a href="https://github.com/Greatnessuko" class="icon" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="https://Project28sunnysideup.netlify.app" class="icon" target="_blank">
+                                <i class="fab fa-chrome"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="image">
+                        <img src="static/img/port3.jpg" alt="">
+                    </div>
+                    <div class="hover-items">
+                        <h3>Personal Project</h3>
+                        <div class="icons">
+                            <a href="https://github.com/greatnessuko" class="icon" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="https://greatnessuko.netlify.app" class="icon" target="_blank">
+                                <i class="fab fa-chrome"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="image">
+                        <img src="static/img/afang1.jpg" alt="">
+                    </div>
+                    <div class="hover-items">
+                        <h3>Personal Project</h3>
+                        <div class="icons">
+                            <a href="https://github.com/greatnessuko" class="icon" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="https://Foodkourt.nelify.app" class="icon" target="_blank">
+                                <i class="fab fa-chrome"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="image">
+                        <img src="static/img/homeImg1.jpg" alt="">
+                    </div>
+                    <div class="hover-items">
+                        <h3>Personal Project</h3>
+                        <div class="icons">
+                            <a href="https://github.com/greatnessuko" class="icon" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="https://Aveelacoffeeshop.netlify.app" class="icon" target="_blank">
+                                <i class="fab fa-chrome"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="image">
+                        <img src="static/img/HSE helmet.jpg" alt="">
+                    </div>
+                    <div class="hover-items">
+                        <h3>Personal Project</h3>
+                        <div class="icons">
+                            <a href="https://github.com/Greatnessuko/Test/" class="icon" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="https://Companybusiness.netlify.app" class="icon" target="_blank">
+                                <i class="fab fa-chrome"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item">
+                    <div class="image">
+                        <img src="static/img/Adobe.png" alt="">
+                    </div>
+                    <div class="hover-items">
+                        <h3>Link to Resume</h3>
+                        <div class="icons">
+                            <a href="https://drive.google.com/file/d/1sR803pLVx-K_P1plFsIY_1n10C71c8Mb/view?usp=drive_link" class="icon" target="_blank">
+                                <i class="far fa-folder-open"></i>
+                            </a>
+                            <a href="https://drive.google.com/file/d/1U2eGsN-ul1QzmabcQkEhcQixTTGgvFh_/view?usp=drive_link" class="icon" target="_blank">
+                                <i class="far fa-file-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <div class="controls">
+        <div class="control active-btn" data-id="home" >
+            <i class="fas fa-home"></i>
+        </div>
+        <div class="control" data-id="about">
+            <i class="fas fa-user"></i>
+        </div>
+        <div class="control" data-id="portfolio">
+            <i class="fas fa-code"></i>
+        </div>
+        
+    </div>
+    <div class="theme-btn">
+        <i class="fas fa-adjust"></i>
+    </div>
+
+     <!-- Footer Section -->
+     <footer>
+        <div class="text">
+          <span>Developed by <a href="https://greatnessuko.netlify.app" target="_blank">Greatness</a> | &#169; 2023 Aveela Development. All Rights Reserved.</span>
+        </div>
+      </footer>
+    <script src="../static/js/app.js"></script>
+</body>
+</html>
