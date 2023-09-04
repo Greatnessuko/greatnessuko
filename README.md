@@ -44,4 +44,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 
 
-Developed by Greatness | © 2023 Aveela Development. All Rights Reserved
+Developed by Greatness | © 2023 Aveela Development. All Rights Reserved.
